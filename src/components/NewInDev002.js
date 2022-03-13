@@ -5,6 +5,7 @@ const NewInDev002 = () => {
     <div>
       <h2>NewInDev002</h2>
       <p>111111</p>
+      <p>222222</p>
     </div>
   );
 };

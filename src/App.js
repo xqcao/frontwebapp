@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Routes, Route, Link } from "react-router-dom";
+import Todos from "./components/Todos";
+import Users from "./components/Users";
+import Home from "./components/Home";
+
+const routes = [
+  { name: "HomePAge", path: "/", component: Home },
+  { name: "UasePAge", path: "/users", component: Users },
+  { name: "TodoPAge", path: "/todos", component: Todos },
+];
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>React app</h2>
+      <nav>
+        <ol>
+          {routes.map((el, idx) => (
+            <li key={el.name + "-" + idx}>
+              <Link to={el.path}>{el.name}</Link>
+            </li>
+          ))}
+        </ol>
+      </nav>
+      <hr />
+      <Routes>
+        {routes.map((el, idx) => (
+          <Route
+            exact
+            key={el.name + "_" + idx}
+            path={el.path}
+            element={<el.component />}
+          />
+        ))}
+      </Routes>
     </div>
   );
 }

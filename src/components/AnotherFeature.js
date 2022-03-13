@@ -7,6 +7,7 @@ const AnotherFeature = () => {
       <p>this is version 1</p>
       <p>this is version 2</p>
       <p>this is version 3</p>
+      <p>this is version 4</p>
     </div>
   );
 };

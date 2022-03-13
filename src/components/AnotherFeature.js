@@ -5,6 +5,7 @@ const AnotherFeature = () => {
     <div>
       <h2>Another Feature</h2>
       <p>this is version 1</p>
+      <p>this is version 2</p>
     </div>
   );
 };

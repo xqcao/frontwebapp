@@ -31,7 +31,7 @@ const NewBacklog = () => {
         <i>6</i>
         <h2>add customer feedback form, so can improve performance</h2>
       </sction>
-    </div>
+    
     </div>
   );
 };

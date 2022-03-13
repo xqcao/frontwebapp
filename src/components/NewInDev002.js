@@ -15,6 +15,7 @@ const NewInDev002 = () => {
         <p>new 111111</p>
         <p>new 2222222</p>
         <p>new 3333333</p>
+        <p>new 44444444</p>
       </section>
     </div>
   );

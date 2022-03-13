@@ -14,6 +14,7 @@ const NewInDev002 = () => {
         <h2>dev002 new feature</h2>
         <p>new 111111</p>
         <p>new 2222222</p>
+        <p>new 3333333</p>
       </section>
     </div>
   );

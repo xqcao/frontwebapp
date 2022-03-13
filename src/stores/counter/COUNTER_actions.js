@@ -1,6 +1,8 @@
 import * as types from "./COUNTER_types";
 
-export const increaseCount = () => ({ type: types.INCREASE_COUNT });
+export const increaseCount = () => {
+  return { type: types.INCREASE_COUNT };
+};
 
 export const decreaseCount = () => ({ type: types.DECREASE_COUNT });
 

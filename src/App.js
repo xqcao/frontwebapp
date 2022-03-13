@@ -3,11 +3,13 @@ import { Routes, Route, Link } from "react-router-dom";
 import Todos from "./components/Todos";
 import Users from "./components/Users";
 import Home from "./components/Home";
+import DevPage from "./components/DevPage";
 
 const routes = [
   { name: "HomePAge", path: "/", component: Home },
   { name: "UasePAge", path: "/users", component: Users },
   { name: "TodoPAge", path: "/todos", component: Todos },
+  { name: "DevPage", path: "/devpage", component: DevPage },
 ];
 
 function App() {

@@ -18,20 +18,19 @@ const NewBacklog = () => {
         <i>3</i>
         <h2>add customer feedback form, so can improve performance</h2>
       </sction>
-      <hr/>
+      <hr />
       <sction>
         <i>4</i>
         <h2>Please add view button here and make page nice</h2>
       </sction>
       <sction>
-        <i>5/i>
+        <i>5</i>
         <h2>Please add background image here, and page looks not that empty</h2>
       </sction>
       <sction>
         <i>6</i>
         <h2>add customer feedback form, so can improve performance</h2>
       </sction>
-    
     </div>
   );
 };

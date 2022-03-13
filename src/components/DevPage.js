@@ -17,7 +17,14 @@ const DevPage = (props) => {
       <h3>Count Number: {counter}</h3>
       <button onClick={incrementIt}>Increment +1</button>
       <br />
+      <br />
       <button onClick={decreaseIt}>Decrement -1</button>
+      <br />
+      <br />
+      <button onClick={() => increaseFastCount(3)}>Fast Increase +3</button>
+      <br />
+      <br />
+      <button onClick={() => decreaseFastCount(5)}>Fast Decrement -5</button>
     </div>
   );
 };

@@ -4,12 +4,14 @@ import Todos from "./components/Todos";
 import Users from "./components/Users";
 import Home from "./components/Home";
 import DevPage from "./components/DevPage";
+import NewDev006 from './components/NewDev006'
 
 const routes = [
   { name: "HomePAge", path: "/", component: Home },
   { name: "UasePAge", path: "/users", component: Users },
   { name: "TodoPAge", path: "/todos", component: Todos },
   { name: "DevPage", path: "/devpage", component: DevPage },
+  { name: "Dev006Page", path: "/dev006page", component: NewDev006 },
 ];
 
 function App() {
